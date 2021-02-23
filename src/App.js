@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Student from './Props/Student';
+//import Employee from './Employe/Employee'
+/* import Bind from './Bind/Bind'; */
+//import Eventbind from './Eventbind'
+/* import Pavan from './Pavan'
+import Siddiq from './Siddiq' */
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    
+    <Student  name={"santosh"} id={"123"}/>
+   
+    </div>)
+  
 }
-
 export default App;
